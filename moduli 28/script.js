@@ -30,7 +30,15 @@ button5.onmousewheel = function(){
 var btn1 = document.getElementById("btn1")
 var btn2 = document.getElementById("btn2")
 var text = document.getElementById("text1")
+var txt2 = document.getElementById("text2")
 
 btn1.onclick = function(){
-    text.style.color="red"
+    text.style.color="gray";
+    text.style.backgroundColor ="darkgray";
+    text.style.textAlign = "center";
+    text.style.fontSize = "100px";
+    txt2.setAttribute("class","text2")
 }
+
+
+

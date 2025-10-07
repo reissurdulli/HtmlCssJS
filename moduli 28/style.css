@@ -1,0 +1,7 @@
+.text2{
+    transition: 1s ease;
+    text-align: center;
+    font-size: 150px;
+    color: gray;
+    background-color: darkgray;
+}
