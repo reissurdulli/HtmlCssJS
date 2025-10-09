@@ -40,5 +40,9 @@ btn1.onclick = function(){
     txt2.setAttribute("class","text2")
 }
 
+btn2.onclick = function(){
+    text1.setAttribute("class","text1")
+}
+
 
 
