@@ -13,8 +13,34 @@
             <input type="text" id="name">
             <span id="name_error">Please Enter a valid name</span>
         </div>
-
+<br>
         <button type="submit">Send</button>
+    </form>
+
+
+
+    <form onsubmit="return validation1();" method="POST" >
+        <div>
+          <label id="age_label">Age:</label>
+          <input type="text" id="age">
+          <span id="age_error">Please enter a valid age</span>
+        </div>
+       <button type="submit" name="submit" >Send</button>
+    </form>
+
+
+
+    <form onsubmit="return validation2();" method="post">
+        <label id="city_label">City:</label>
+        <select name="city" id="city">
+            <option value="" selected></option>
+            <option value="Prishtine">Prishtine</option>
+            <option value="Prizeren">Prizeren</option>
+            <option value="Gjilan">Gjilan</option>
+            <option value="Ferizaj">Ferizaj</option>
+        </select>
+        <span id="city_error">Please Enter a valid city</span>
+        <button type="submit" name="submit" >Send</button>
     </form>
 
 
