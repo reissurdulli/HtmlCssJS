@@ -12,7 +12,7 @@ function search(){
     input = document.getElementById("myInput");
     filter= input.value.toUpperCase();
     ul=document.getElementById("myList");
-    li=ul.getElementByTagName("li");
+    li=ul.getElementsByTagName("li");
     for(i=0; i<li.length;i++){
         a = li[i];
         txtValue = a.textContent;
